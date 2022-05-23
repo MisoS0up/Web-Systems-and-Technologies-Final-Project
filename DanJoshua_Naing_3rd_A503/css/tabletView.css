@@ -1,0 +1,116 @@
+@import url(main.css);
+@import url(MobileView.css);
+@media (min-width: 990px){
+    .mobile-nav{
+        display: none;
+    }
+    .hamburger{
+        display: none;
+    }
+    body{
+        background-image: url("/pictures/4060492.jpg");
+    }
+    .contentContainer {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1.2fr 1.2fr 1.2fr;
+        grid-template-areas: 
+        "main main main"
+        "content1 content2 content3"
+        "footer footer footer";
+        grid-gap: 2rem;
+      }
+      figure{
+          border-radius: 1rem;
+      }
+      .content1-project
+      {
+          margin-left: 20px ;
+      }
+      .content2-project
+      {
+          border-radius: 1rem ;
+      }
+      .content5-project
+      {
+          border-radius: 1rem ;
+      }
+      .content3-project
+      {
+          margin-right: 20px ;
+      }
+      .content4-project
+      {
+          margin-left: 20px ;
+      }
+      .content6-project
+      {
+          margin-right: 20px ;
+      }
+      .content1
+      {
+          margin-left: 20px ;
+          border-radius: 1rem;
+      }
+      .content2
+      {
+          border-radius: 1rem;
+      }
+      .content3
+      {
+          margin-right: 20px ;
+          border-radius: 1rem;
+          background-color: #383838;
+      }
+      .content4{
+          border-radius: 1rem;
+      }
+      .content5{
+          border-radius: 1rem;
+      }
+      .contentContainer-Profile{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1.2fr 1.2fr 1.2fr 1.2fr;
+        grid-template-areas: 
+        "main main main"
+        "content1 content2 content3"
+        "content4 content4 content4"
+        "footer footer footer";
+        grid-gap: 2rem;
+    }
+    .certIMG{
+        width: 50%;
+        height: 50%;
+    }
+    .project-img-inside{
+        width: 50%;
+        height: 50%;
+    }
+    .contentContainer-project{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        grid-gap: 2rem;
+        grid-template-areas: 
+          "main main main"
+          "content1 content2 content3"
+          "content4 content5 content6"
+          "footer footer footer"; 
+      }
+      .grow-modal img{
+        transition: 1s ease;
+        }
+        
+        .grow-modal img:hover{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+        transition: 1s ease;
+        }
+    
+
+
+}
+    
+
+    

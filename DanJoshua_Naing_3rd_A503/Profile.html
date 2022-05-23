@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Flat&family=Press+Start+2P&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/MobileView.css"/>
+    <link rel="stylesheet" href="/css/tabletView.css"/>
+    <link rel="icon" href="pictures/DJ Logo-White.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+            
+        <nav>
+        <div class="container">
+           <a href="Index.html"><img src="pictures/DJ Logo-White.png" alt="logo" height="50px" width="50px" /> </a> 
+            
+            <div class="menu">
+                <a href="Index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Profile.html" class="is-active">Profile</a>
+                <a href="projects.html">Project</a>
+
+            </div>
+
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+ </nav>
+</header>
+<nav class="mobile-nav">
+    <a href="Index.html">Home </a>
+    <a href="About.html">About</a>
+    <a href="Profile.html">Profile</a>
+    <a href="projects.html">Project</a>
+
+
+</nav>
+<div class="contentContainer-Profile">
+        <main>Profile</main>
+        <div class="content1">
+            <h2 style="padding: 25pt;">Career Goals</h2>
+            <p style="padding-bottom: 50pt; margin: 5pt;">I am a third-year college student at STI Global City pursuing a Bachelor of Science in Information Technology, and I am really enthusiastic to begin my career in the business.
+                 Longer-term ambitions include learning a range of topics within the field of code-programming and determining which area of specialty 
+                 I want to pursue. In the long run, I'd like to become an expert in a certain sector of programming, but I know the first step is to build a solid foundation and learn the basics in an entry-level role. </p>
+        </div>
+        <div class="content2">
+            <h2 style="padding: 25pt;">Personal Background</h2>
+            <p class="grow"> <img src="pictures/juswa.jpg" alt="pic" height="25%" width="30%" style="border-radius: 100px;"><br>
+                Dan Joshua Naing<br>Age : 22<br>Status: Single<br>Filipino</p>
+            <div>
+               <a href="mailto: joshuanaing212@gmail.com"> <img src="pictures/Gmail_Logo_256px.png" alt="Email" height="5%" width="10%"></a>
+               <a href="https://github.com/MisoS0up"><img src="pictures/github-logo.png" alt="github" height="5%" width="10%"></a>
+            </div>
+            <div>
+                <h4>Awards & Certificate</h2>
+                    <a href="#open-modal">
+                        <button class="button"style="vertical-align: middle;"><span>Check</span></button></a>
+                     
+        
+                     <div id="open-modal" class="modal-window">
+                        <div>
+                            <a class="modal-close" href="#modal-close" title="Close">&times;</a>
+                            <h2 style="padding: 25pt;">Awards and Certificates</h2>
+                            <img class="certIMG"src="/pictures/SAP_cert.jpg" alt="SAP-Cert" width="100%" height="100%">
+                            <img class="certIMG"src="/pictures/SAP_cert.jpg" alt="SAP-Cert" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <br><br>
+            </div>
+        </div>
+        <div class="content3">
+            <h2 style="padding: 25pt">Programming Skills</h2>
+           <p class="grow">
+               <img src="pictures/Java-Logo.png" alt="JavaLogo" height="20%" width="20%">
+               <img src="pictures/Csharp_Logo.png" alt="Csharp_Logo" height="15%" width="15%">
+               <img src="pictures/python-Logo.png" alt="python-Logo"height="10%" width="10%"> 
+           </p>
+            <h2 style="padding: 25pt;"> Other Skills</h2>
+            <p class="grow">
+                <img src="pictures/html-Logo.png" alt="htmlLogo" height="10%" width="10%">
+                <img src="pictures/css logo.png" alt="cssLogo" height="7.5%" width="7.5%">
+            </p>
+            <p class="grow">
+                <img src="pictures/adobe-photoshop-logo.png" alt="adobe-photoshop-logo" height="10%" width="10%">
+                <img src="pictures/Adobe_Illustrator_CC_Logo.png" alt="Adobe_Illustrator_CC_Logo"  height="10%" width="10%">
+                <img src="pictures/Adobe_Premiere_Pro_CC_icon.svg.png" alt="Adobe_Premiere_Pro_CC_icon"  height="10%" width="10%">
+            </p>
+        </div>
+        <footer>
+            <div class="contact">
+                 <form onsubmit="sendEmail(); reset();">
+                     <h1 style="color: rgb(255, 255, 255);">Contact Me!</h1>
+                     <input type="text" id="name" placeholder="Your Name" required>
+                     <input type="email" id="email" placeholder="Email Address" required>
+                     <textarea id="message" rows="4" placeholder="Write Message.."></textarea>
+                     <button type="submit">Submit</button>
+                 </form>
+                </div>
+                 
+                <p style="font-size: 10pt;">Copyright © 2022 Joshua Naing | All rights reserved </p><p style="font-size:10pt ;"> Made with ❤️ by Joshua Naing  </p>
+        </footer>
+        
+
+</div>
+<script src="/Javascript Folder/main.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
