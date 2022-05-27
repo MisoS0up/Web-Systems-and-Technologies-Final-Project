@@ -1,2 +1,2 @@
 # Web-Systems-and-Technologies-Final-Project
-a Responsive website containing Index, About, Profile, Projects etcs. 
+A Personal Portfolio containing Index, About, Profile, Projects etcs. 
