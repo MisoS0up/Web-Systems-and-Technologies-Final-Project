@@ -304,7 +304,7 @@ footer{
     .content4-project figure{
         grid-area: content4;
         color:var(--light);
-        background: #5e5e5e;
+        background: #868686;
         font-size: 1.8vh;
         transition: 1s ease;   
         margin: 0;
@@ -449,9 +449,9 @@ footer{
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 15px;
+    font-size: 1.5vh;
     padding: 20px;
-    width: 125px;
+    width: 110px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
